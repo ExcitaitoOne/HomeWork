@@ -50,7 +50,6 @@ void PrintArray(int[,] arr)
 
 
 int[,] array = new int[n, n*2];
-string[,] str = new string[n,n];
 
 FillArray(array);
 PrintArray(array);
