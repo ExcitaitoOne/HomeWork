@@ -64,26 +64,11 @@ void sortLine(int[,] arr, int arg)
                     arr[arg, i] = temp;
                 }
             }
-
         }
     ind++;
     }
 }
 
-
-void SortArray(int[,] arr)
-{
-    int max = arr[0, 0];
-
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = i + 1; j < m; j++)
-        {
-
-        }
-
-    }
-}
 
 int[,] Arrays = new int[n, m];
 FillArr(Arrays);
